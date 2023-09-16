@@ -1,5 +1,5 @@
 CC = cc
-CFLAGS = -O2 -g -Wall -Werror
+CFLAGS = -O2 -g -Wall -Werror -pedantic -std=c99
 
 all: text_editor
 
